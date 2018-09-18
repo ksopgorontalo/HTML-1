@@ -7,7 +7,8 @@
     <style>
         body {
             margin: 0;
-            font-family: "FiraSans", "Roboto", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif
+            font-family: "FiraSans", "Roboto", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+            color:#444;
         }
         
         body ul {
@@ -30,6 +31,18 @@ list-style-type: none!important;
     height: 125px;
     float: left;
         }
+        
+        @media screen and (max-width: 480px)
+body li {
+    padding: 0 0 10px 0;
+    height: 320px;
+}
+@media screen and (max-width: 640px)
+body li {
+    width: 100%;
+    margin: 0;
+    padding: 0 0 5px 0;
+}
         
         span.news-text {
             font-size: 14px;
