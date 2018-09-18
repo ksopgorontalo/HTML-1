@@ -18,22 +18,16 @@
             float: left
         }
         
-        body li {
-list-style-type: none!important;
-    margin: 0 20px 20px 0;
+body li {
     position: relative;
-    width: 23.5%;
-    width: calc(50% - 20px);
-    justify-content: center;
-    float: left;
-    transition: all .4s ease-in-out;
-    overflow: hidden;
     padding: 5px 0 5px;
-    height: 125px;
+    margin: 0 10px 0 0;
+    border-bottom: 1px solid #d7d7d7;
+    height: 110px;
     float: left;
-    background: #F1F3F4;
-    border-radius: 25px;
-        }
+    width: calc(50% - 10px);
+    list-style: none;
+}
         
         @media screen and (max-width: 480px){
 body li {
@@ -51,16 +45,17 @@ body li {
         span.news-text {
             font-size: 14px;
             color: #444;
-            line-height: 1.2em
+            line-height: 1.2em;
+                display:none;
         }
         
         body ul li a {
-            text-decoration: none;
-            display: block;
-            color: #15c;
-            transition: all .2s ease;
-            font-weight: 500;
-            line-height: 1em
+    display: block;
+    color: #15c;
+    transition: all .2s ease;
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 1.3em;
         }
         
         body ul li a:hover {
@@ -71,13 +66,16 @@ body li {
             color: #EA4335
         }
         
-        body ul li img {
-    float: left;
-    margin-right: 10px;
+body ul li img {
     padding-left: 10px;
     padding-top: 10px;
-    border-radius: 20px;
-        }
+    float: left;
+    margin-right: 10px;
+    padding: 0;
+    margin-left: 10px;
+    border-radius: 3px;
+    width: 100px;
+}
         
         .relinkjdulx {
     font-size: 17px;
